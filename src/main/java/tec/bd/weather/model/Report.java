@@ -21,18 +21,6 @@ public class Report {
         this.city = city;
     }
 
-    @Override
-    public String toString() {
-        return "Report{" +
-                "city='" + city + '\'' +
-                ", humidity=" + humidity +
-                ", pressure=" + pressure +
-                ", temperature=" + temperature +
-                ", maxTemperature=" + maxTemperature +
-                ", minTemperature=" + minTemperature +
-                '}';
-    }
-
     public float getHumidity() {
         return humidity;
     }
@@ -71,5 +59,17 @@ public class Report {
 
     public void setMinTemperature(float minTemperature) {
         this.minTemperature = minTemperature;
+    }
+
+    @Override
+    public String toString() {
+        return "Report{" +
+                "city='" + city + '\'' +
+                ", humidity=" + humidity +
+                ", pressure=" + pressure +
+                ", temperature=" + temperature +
+                ", maxTemperature=" + maxTemperature +
+                ", minTemperature=" + minTemperature +
+                '}';
     }
 }

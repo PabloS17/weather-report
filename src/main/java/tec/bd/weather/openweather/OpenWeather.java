@@ -2,7 +2,6 @@ package tec.bd.weather.openweather;
 
 import retrofit2.Call;
 import tec.bd.weather.provider.BaseWeatherProvider;
-import tec.bd.weather.provider.IWeatherProvider;
 import tec.bd.weather.model.Report;
 
 import java.util.Map;
