@@ -5,11 +5,8 @@ import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.junit.jupiter.MockitoExtension;
-import tec.bd.weather.model.Report;
-import tec.bd.weather.provider.IWeatherProvider;
 
 import static org.mockito.BDDMockito.*;
-import static org.assertj.core.api.Assertions.*;
 
 @ExtendWith(MockitoExtension.class)
 public class WeatherReportTest {

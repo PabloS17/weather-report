@@ -6,19 +6,11 @@ import okhttp3.mockwebserver.MockWebServer;
 import okhttp3.mockwebserver.RecordedRequest;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
-import org.mockito.InjectMocks;
-import org.mockito.Mock;
 import org.mockito.junit.jupiter.MockitoExtension;
-import retrofit2.Call;
-import retrofit2.Response;
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
-import tec.bd.weather.openweather.IOpenWeatherResource;
-import tec.bd.weather.openweather.OpenWeather;
-import tec.bd.weather.openweather.OpenWeatherReport;
 
 import static org.assertj.core.api.Assertions.*;
-import static org.mockito.BDDMockito.*;
 
 @ExtendWith(MockitoExtension.class)
 public class OpenWeatherTest {
